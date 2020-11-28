@@ -2,8 +2,6 @@ import time
 
 from config.config import BRIANS_WEBSITE_URL, CHROME_DRIVER
 
-from selenium import webdriver
-
 
 # https://autonomiq.io/chropath/
 
