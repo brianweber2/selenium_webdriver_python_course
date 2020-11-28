@@ -8,5 +8,6 @@ if __name__ == '__main__':
     DRIVER.find_element_by_css_selector('.password').clear()
     DRIVER.find_element_by_link_text('Forgot Your Password?').click()
     DRIVER.find_element_by_xpath("//a[text()='Cancel']").click()
-    DRIVER.find_element_by_xpath("//form[@name='login']/div[1]/label")
+    print(DRIVER.find_element_by_xpath("//form[@name='login']/div[1]/label").text)
+    print(DRIVER.find_element_by_css_selector("form[name='login'] label:nth-child(3)").text)
     DRIVER.close()
