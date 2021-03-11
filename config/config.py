@@ -2,7 +2,8 @@ from selenium import webdriver
 
 
 # Web Drivers
-CHROME_DRIVER_EXECUTABLE_PATH = '/opt/selenium/chromedriver'
+# CHROME_DRIVER_EXECUTABLE_PATH = '/opt/selenium/chromedriver'
+CHROME_DRIVER_EXECUTABLE_PATH = '/Users/bweber3/Downloads/chromedriver'
 CHROME_DRIVER = webdriver.Chrome(executable_path=CHROME_DRIVER_EXECUTABLE_PATH)
 
 # URLs
