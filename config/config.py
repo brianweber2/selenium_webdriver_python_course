@@ -10,3 +10,5 @@ CHROME_DRIVER = webdriver.Chrome(executable_path=CHROME_DRIVER_EXECUTABLE_PATH)
 BRIANS_WEBSITE_URL = 'https://brianwweber.com'
 SALESFORCE_LOGIN_URL = 'https://login.salesforce.com/'
 RAHUL_SHETTY_URL = 'https://rahulshettyacademy.com'
+HEROKUAPP_URL = 'https://the-internet.herokuapp.com'
+POPUPS_URL = 'https://chercher.tech/practice/practice-pop-ups-selenium-webdriver'
